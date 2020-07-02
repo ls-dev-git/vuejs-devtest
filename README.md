@@ -5,6 +5,8 @@
 
 Unzip folder
 
+Open vuejs-assessment.sln
+
 Install dependencies
 ```
 $ npm install
