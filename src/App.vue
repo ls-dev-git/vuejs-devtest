@@ -61,6 +61,7 @@
                 userAccounts: [],
                 isLoaded: false,
                 isLoadingError: false,
+                loadingError: null
             }
         },
         created() {
@@ -96,7 +97,8 @@
                 });
             }, // TODO move to actions. Need to implement a store and api service pattern
             setError({ error }) {
-                this.isLoadingError = true;                
+                this.isLoadingError = true;
+                this.loadingError = error;
             }, // TODO handle error
             getCurrentYear() {
                 return new Date().getFullYear();
