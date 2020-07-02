@@ -108,6 +108,7 @@
 </script>
 
 <style>
+    /*TODO move to a css file */
     html, body {
         height: 100%;
         width: 100%;
